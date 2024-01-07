@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Container class="javax.swing.JPopupMenu" name="jPopupMenu1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="open in new window"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+          </Events>
+        </MenuItem>
+        <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="open in this window"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+          </Events>
+        </MenuItem>
+        <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="lock mode switching"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem3ActionPerformed"/>
+          </Events>
+        </MenuItem>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Calculator-Basic"/>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[500, 180]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+    <Property name="type" type="java.awt.Window$Type" editor="org.netbeans.modules.form.editors.EnumEditor">
+      <Value id="UTILITY"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jTextField1" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jButton15" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jButton11" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jRadioButton1" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jRadioButton2" alignment="0" pref="96" max="32767" attributes="0"/>
+                                  <Component id="jButton4" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jButton19" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jButton18" max="32767" attributes="0"/>
+                                  <Component id="jButton14" max="32767" attributes="0"/>
+                                  <Component id="jButton10" max="32767" attributes="0"/>
+                                  <Component id="jButton5" max="32767" attributes="0"/>
+                                  <Component id="jButton1" pref="92" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jButton6" max="32767" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                                              <Component id="jButton2" pref="89" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="jButton9" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="jButton13" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jButton8" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="jButton7" alignment="1" pref="86" max="32767" attributes="0"/>
+                                          <Component id="jButton3" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="jButton12" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jButton16" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jRadioButton3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                              <Component id="choice1" min="-2" pref="129" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" pref="106" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel1" min="-2" pref="115" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="172" max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="82" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTextField2" pref="408" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="choice1" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton3" min="-2" pref="19" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="13" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="jTextField1" min="-2" pref="52" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jButton3" alignment="1" max="32767" attributes="0"/>
+                      <Component id="jButton2" alignment="1" max="32767" attributes="0"/>
+                      <Component id="jButton1" alignment="1" pref="46" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jRadioButton1" min="-2" pref="24" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="jButton4" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="jButton5" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jButton7" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jButton6" alignment="1" min="-2" pref="40" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jButton10" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jButton11" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jButton9" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jButton8" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton12" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="jButton13" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jButton14" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jButton15" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jButton19" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jButton16" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jButton18" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                  <Component id="jTextField2" min="-2" pref="50" max="-2" attributes="0"/>
+                  <EmptySpace pref="367" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="20" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="caretUpdate" listener="javax.swing.event.CaretListener" parameters="javax.swing.event.CaretEvent" handler="jTextField1CaretUpdate"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTextField1MouseClicked"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jTextField1.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_BACK_SPACE, 0, false), &quot;backsp&quot;);&#xa;        jTextField1.getActionMap().put(&quot;backsp&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                //if(jTextField1.getCaret().isVisible()) &#xa;                jButton1.grabFocus(); //jButton1ActionPerformed1();&#xa;            }&#xa;       });&#xa;jTextField1.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_C, KeyEvent.CTRL_DOWN_MASK, false), &quot;clearup&quot;);&#xa;        jTextField1.getActionMap().put(&quot;clearup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton2.getModel().setPressed(true);&#xa;                jButton2.getModel().setArmed(true);&#xa;                jButton2.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup1"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="12" style="1"/>
+        </Property>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="ON"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup1"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="OFF"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="(  &lt;-  )"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseMoved" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jButton1MouseMoved"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton1MouseClicked"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton1MouseExited"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton1.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_BACK_SPACE, 0, false), &quot;backup&quot;);&#xa;        jButton1.getActionMap().put(&quot;backup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton1.grabFocus(); jButton1ActionPerformed1();&#xa;            }&#xa;       });&#xa;/*jButton1.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_BACK_SPACE, 0, true), &quot;backdown&quot;);&#xa;jButton1.getActionMap().put(&quot;backdown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton1.getModel().setPressed(false);&#xa;                jButton1.getModel().setArmed(false);&#xa;}});*/&#xa;jButton1.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_9, KeyEvent.SHIFT_DOWN_MASK, false), &quot;left_parenthup&quot;);&#xa;        jButton1.getActionMap().put(&quot;left_parenthup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton1.grabFocus(); jButton1ActionPerformed2(true);&#xa;            }&#xa;       });&#xa;jButton1.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_0, KeyEvent.SHIFT_DOWN_MASK, false), &quot;right_parenthup&quot;);&#xa;        jButton1.getActionMap().put(&quot;right_parenthup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton1.grabFocus(); jButton1ActionPerformed2(false);&#xa;            }&#xa;       });"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="C"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton2.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_C, KeyEvent.CTRL_DOWN_MASK, false), &quot;clearup&quot;);&#xa;        jButton2.getActionMap().put(&quot;clearup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton2.getModel().setPressed(true);&#xa;                jButton2.getModel().setArmed(true);&#xa;                jButton2.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton2.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_C, KeyEvent.CTRL_DOWN_MASK, true), &quot;cleardown&quot;);&#xa;jButton2.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_C, 0, true), &quot;cleardown&quot;);&#xa;jButton2.getActionMap().put(&quot;cleardown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton2.getModel().setPressed(false);&#xa;                jButton2.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="+"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton3.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_EQUALS, KeyEvent.SHIFT_DOWN_MASK, false), &quot;plusup&quot;);&#xa;        jButton3.getActionMap().put(&quot;plusup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton3.getModel().setPressed(true);&#xa;                jButton3.getModel().setArmed(true);&#xa;                jButton3.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton3.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_EQUALS, KeyEvent.SHIFT_DOWN_MASK, true), &quot;plusdown&quot;);&#xa;jButton3.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_EQUALS, 0, true), &quot;plusdown&quot;);&#xa;jButton3.getActionMap().put(&quot;plusdown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton3.getModel().setPressed(false);&#xa;                jButton3.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="7"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton4.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_7, 0, false), &quot;sevenup&quot;);&#xa;        jButton4.getActionMap().put(&quot;sevenup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton4.getModel().setPressed(true);&#xa;                jButton4.getModel().setArmed(true);&#xa;                jButton4.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton4.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_7, 0, true), &quot;sevendown&quot;);&#xa;jButton4.getActionMap().put(&quot;sevendown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton4.getModel().setPressed(false);&#xa;                jButton4.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="8"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton5.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_8, 0, false), &quot;eightup&quot;);&#xa;        jButton5.getActionMap().put(&quot;eightup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton5.getModel().setPressed(true);&#xa;                jButton5.getModel().setArmed(true);&#xa;                jButton5.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton5.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_8, 0, true), &quot;eightdown&quot;);&#xa;jButton5.getActionMap().put(&quot;eightdown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton5.getModel().setPressed(false);&#xa;                jButton5.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="9"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton6.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_9, 0, false), &quot;nineup&quot;);&#xa;        jButton6.getActionMap().put(&quot;nineup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton6.getModel().setPressed(true);&#xa;                jButton6.getModel().setArmed(true);&#xa;                jButton6.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton6.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_9, 0, true), &quot;ninedown&quot;);&#xa;jButton6.getActionMap().put(&quot;ninedown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton6.getModel().setPressed(false);&#xa;                jButton6.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="20" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton7.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_MINUS, 0, false), &quot;minusup&quot;);&#xa;        jButton7.getActionMap().put(&quot;minusup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton7.getModel().setPressed(true);&#xa;                jButton7.getModel().setArmed(true);&#xa;                jButton7.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton7.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_MINUS, 0, true), &quot;minusdown&quot;);&#xa;jButton7.getActionMap().put(&quot;minusdown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton7.getModel().setPressed(false);&#xa;                jButton7.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="*"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton8.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_8, KeyEvent.SHIFT_DOWN_MASK, false), &quot;starup&quot;);&#xa;        jButton8.getActionMap().put(&quot;starup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton8.getModel().setPressed(true);&#xa;                jButton8.getModel().setArmed(true);&#xa;                jButton8.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton8.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_8, KeyEvent.SHIFT_DOWN_MASK, true), &quot;stardown&quot;);&#xa;jButton8.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_8, 0, true), &quot;stardown&quot;);&#xa;jButton8.getActionMap().put(&quot;stardown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton8.getModel().setPressed(false);&#xa;                jButton8.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton9">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="6"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton9ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton9.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_6, 0, false), &quot;sixup&quot;);&#xa;        jButton9.getActionMap().put(&quot;sixup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton9.getModel().setPressed(true);&#xa;                jButton9.getModel().setArmed(true);&#xa;                jButton9.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton9.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_6, 0, true), &quot;sixdown&quot;);&#xa;jButton9.getActionMap().put(&quot;sixdown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton9.getModel().setPressed(false);&#xa;                jButton9.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton10">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton10ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton10.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_5, 0, false), &quot;fiveup&quot;);&#xa;        jButton10.getActionMap().put(&quot;fiveup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton10.getModel().setPressed(true);&#xa;                jButton10.getModel().setArmed(true);&#xa;                jButton10.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton10.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_5, 0, true), &quot;fivedown&quot;);&#xa;jButton10.getActionMap().put(&quot;fivedown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton10.getModel().setPressed(false);&#xa;                jButton10.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton11">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton11ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton11.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_4, 0, false), &quot;fourup&quot;);&#xa;        jButton11.getActionMap().put(&quot;fourup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton11.getModel().setPressed(true);&#xa;                jButton11.getModel().setArmed(true);&#xa;                jButton11.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton11.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_4, 0, true), &quot;fourdown&quot;);&#xa;jButton11.getActionMap().put(&quot;fourdown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton11.getModel().setPressed(false);&#xa;                jButton11.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton12">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton12ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton12.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_SLASH, 0, false), &quot;slashup&quot;);&#xa;        jButton12.getActionMap().put(&quot;slashup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton12.getModel().setPressed(true);&#xa;                jButton12.getModel().setArmed(true);&#xa;                jButton12.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton12.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_SLASH, 0, true), &quot;slashdown&quot;);&#xa;jButton12.getActionMap().put(&quot;slashdown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton12.getModel().setPressed(false);&#xa;                jButton12.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton13">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton13ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton13.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_3, 0, false), &quot;threeup&quot;);&#xa;        jButton13.getActionMap().put(&quot;threeup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton13.getModel().setPressed(true);&#xa;                jButton13.getModel().setArmed(true);&#xa;                jButton13.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton13.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_3, 0, true), &quot;threedown&quot;);&#xa;jButton13.getActionMap().put(&quot;threedown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton13.getModel().setPressed(false);&#xa;                jButton13.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton14">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton14ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton14.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_2, 0, false), &quot;oneup&quot;);&#xa;        jButton14.getActionMap().put(&quot;oneup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton14.getModel().setPressed(true);&#xa;                jButton14.getModel().setArmed(true);&#xa;                jButton14.grabFocus(); //jButton15.doClick();&#xa;                //jButton15ActionPerformed(e);&#xa;                //throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody&#xa;            }&#xa;       });&#xa;jButton14.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_2, 0, true), &quot;onedown&quot;);&#xa;jButton14.getActionMap().put(&quot;onedown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton14.getModel().setPressed(false);&#xa;                jButton14.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton15">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton15ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton15.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_1, 0, false), &quot;oneup&quot;);&#xa;        jButton15.getActionMap().put(&quot;oneup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton15.getModel().setPressed(true);&#xa;                jButton15.getModel().setArmed(true);&#xa;                jButton15.grabFocus(); //jButton15.doClick();&#xa;                //jButton15ActionPerformed(e);&#xa;                //throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody&#xa;            }&#xa;       });&#xa;jButton15.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_1, 0, true), &quot;onedown&quot;);&#xa;jButton15.getActionMap().put(&quot;onedown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton15.getModel().setPressed(false);&#xa;                jButton15.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton16">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="="/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton16ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton16.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_EQUALS, 0, false), &quot;equalup&quot;);&#xa;        jButton16.getActionMap().put(&quot;equalup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton16.getModel().setPressed(true);&#xa;                jButton16.getModel().setArmed(true);&#xa;                jButton16.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton16.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_EQUALS, 0, true), &quot;equaldown&quot;);&#xa;jButton16.getActionMap().put(&quot;equaldown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton16.getModel().setPressed(false);&#xa;                jButton16.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton18">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="30" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton18ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton18.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_PERIOD, 0, false), &quot;deciup&quot;);&#xa;        jButton18.getActionMap().put(&quot;deciup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton18.getModel().setPressed(true);&#xa;                jButton18.getModel().setArmed(true);&#xa;                jButton18.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton18.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_PERIOD, 0, true), &quot;decidown&quot;);&#xa;jButton18.getActionMap().put(&quot;decidown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton18.getModel().setPressed(false);&#xa;                jButton18.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton19">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[29, 49]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[29, 29]"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton19ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jButton19.getInputMap(JButton.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_0, 0, false), &quot;zeroup&quot;);&#xa;        jButton19.getActionMap().put(&quot;zeroup&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton19.getModel().setPressed(true);&#xa;                jButton19.getModel().setArmed(true);&#xa;                jButton19.grabFocus(); //jButton15.doClick();                &#xa;            }&#xa;       });&#xa;jButton19.getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_0, 0, true), &quot;zerodown&quot;);&#xa;jButton19.getActionMap().put(&quot;zerodown&quot;, new javax.swing.AbstractAction() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                jButton19.getModel().setPressed(false);&#xa;                jButton19.getModel().setArmed(false);&#xa;}});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseMoved" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jLabel1MouseMoved"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="2e" green="54" red="f9" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="E X  P R E S S"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e7" green="96" red="44" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="3f" green="59" red="e9" type="rgb"/>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Choice" name="choice1">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+      </AccessibilityProperties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="toolTipText" type="java.lang.String" value="Unlock mode switching"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jRadioButton3MouseEntered"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="20" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="b6" green="82" red="60" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

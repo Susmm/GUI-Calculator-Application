@@ -1,0 +1,9 @@
+> images must be saved in /usr/share/icons
+
+> image must be addressed by local name in desktop entry file
+ 
+> Accepts png files does not accept .jpg/.jpeg
+
+> converting .jpg to .png
+
+find . -name "*.jpg" -exec mogrify -format png {} \;

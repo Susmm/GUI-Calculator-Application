@@ -1,0 +1,59 @@
+java -jar executable_jar.jar
+
+No main manifest attribute in jar
+
+Solution
+
+This error occurs whenever Main-Class property is missing from manifest file MANIFEST.MF which can be found under META-INF folder in the jar.
+
+Correct it by adding below lines to your pom.xml
+
+
+<!-- include below build tag to your existing pom.xml  --> 
+<build>
+ <plugins>
+     <plugin> 
+
+                <!-- Building an executable jar -->
+
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                  <archive>
+                    <manifest>
+
+                    <!-- give full qualified name of your main class-->
+                      <mainClass>com.javahungry.Demo</mainClass>
+
+                    </manifest>
+                  </archive>
+                </configuration>
+    </plugin>
+ </plugins>
+</build>
+
+https://javahungry.blogspot.com/2019/05/solved-no-main-manifest-attribute-in-jar.html
+
+How to make .jar files run on double click
+
+/usr/share/applications/java.desktop
+
+[Desktop Entry]
+Name=Java
+Comment=Java
+GenericName=Java
+Keywords=java
+Exec=java -jar %f
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+MimeType=application/x-java-archive
+StartupNotify=true
+
+This will create an application named java
+
+Alternatively a shell script can also be used to run jar application on double click
+
+https://askubuntu.com/questions/138908/how-to-execute-a-script-just-by-double-clicking-like-exe-files-in-windows
+ 

@@ -1,0 +1,11 @@
+Linux application icons -> original in left panel and symbolic in top bar...
+
+sudo cp cal-img3.png hicolor/256x256/apps/cal-img3.png	// for left panel
+
+sudo cp cal-img3.png hicolor/symbolic/cal-img3.png		}
+									// for top bar
+sudo cp cal-img3.png hicolor/symbolic/apps/cal-img3.png	}
+
+sudo gtk-update-icon-cache hicolor/
+
+https://askubuntu.com/questions/1267616/why-are-the-top-application-indicators-top-bar-icons-appearing-black-and-white
